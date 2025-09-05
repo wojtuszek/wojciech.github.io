@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(112, 103, 133);
+    background-color: rgb(119, 96, 172);
     text-align: justify;
 }
 h1{
@@ -13,4 +13,22 @@ body{
     width: 1000px;
     height: 2000px;
     padding-top: 10px;
+}
+#wys{
+    background-color: rgb(126, 241, 207);
+    color: black;
+    left: -170px;
+    top: 200px;
+    border-radius: 0px 10px 10px 0px;
+    position: fixed;
+    height: 35px;
+    width: 200px;
+    transition: 2s;
+    text-align: right;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+#wys:hover{
+    left: -60px;
+    transition: 2s;
 }
